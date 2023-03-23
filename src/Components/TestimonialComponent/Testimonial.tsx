@@ -1,4 +1,5 @@
 import { Testimonial } from "../../data/Testimonials";
+import "./Testimonial.css";
 
 function App(props: Testimonial) {
   const imgPath = `../../../images/testimonial-${props.photoName}.png`;
